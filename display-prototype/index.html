@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SmartStop Berlin — Display Prototype</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="stage">
+    <p class="hint">Vision Prototype · 1080×1920 · Blender-Display-Textur</p>
+
+    <div class="kiosk" id="kiosk" aria-label="SmartStop Anzeige">
+      <!-- LIVE -->
+      <section class="screen screen--live is-active" id="screen-live" data-screen="live">
+        <header class="top">
+          <div class="brand">
+            <span class="brand__mark">SmartStop</span>
+            <span class="brand__city">Berlin</span>
+          </div>
+          <div class="meta">
+            <div class="stop">Haltestelle Alexanderplatz</div>
+            <div class="clock" id="clock">17:13</div>
+          </div>
+        </header>
+
+        <div class="departures" role="table" aria-label="Live-Abfahrten">
+          <div class="departures__head" role="row">
+            <span>Linie</span>
+            <span>Richtung</span>
+            <span>Auslastung</span>
+            <span>in</span>
+          </div>
+
+          <article class="row" role="row">
+            <span class="line">100</span>
+            <span class="dest">Zoologischer Garten</span>
+            <span class="load load--mid" title="mittel"><i></i><i></i><i></i></span>
+            <span class="eta"><strong>2</strong> Min</span>
+          </article>
+          <article class="row" role="row">
+            <span class="line line--metro">M41</span>
+            <span class="dest">Hauptbahnhof</span>
+            <span class="load load--low" title="niedrig"><i></i><i></i><i></i></span>
+            <span class="eta"><strong>5</strong> Min</span>
+          </article>
+          <article class="row" role="row">
+            <span class="line">200</span>
+            <span class="dest">Prenzlauer Berg</span>
+            <span class="load load--high" title="hoch"><i></i><i></i><i></i></span>
+            <span class="eta"><strong>9</strong> Min</span>
+          </article>
+          <article class="row" role="row">
+            <span class="line">N5</span>
+            <span class="dest">S+U Friedrichstraße</span>
+            <span class="load load--low" title="niedrig"><i></i><i></i><i></i></span>
+            <span class="eta"><strong>14</strong> Min</span>
+          </article>
+        </div>
+
+        <div class="map-panel">
+          <div class="map-panel__label">
+            <span>Linien am Alexanderplatz</span>
+            <span class="map-panel__here">100 · M41 · 200 · N5</span>
+          </div>
+          <div id="live-map" class="map-canvas" role="img" aria-label="Karte Alexanderplatz"></div>
+          <div class="map-panel__attr">© OpenStreetMap · © CARTO</div>
+        </div>
+
+        <footer class="bar">
+          <button type="button" class="btn" data-go="netz">i Netzinfo</button>
+          <button type="button" class="btn" data-go="large">A Großschrift</button>
+          <div class="status">
+            <span class="dot"></span> Solar OK · LED Auto
+          </div>
+        </footer>
+      </section>
+
+      <!-- GROSSCHRIFT -->
+      <section class="screen screen--large" id="screen-large" data-screen="large" hidden>
+        <header class="top top--large">
+          <div class="brand">
+            <span class="brand__mark">SmartStop</span>
+            <span class="brand__city">Großschrift</span>
+          </div>
+          <div class="clock" id="clock-large">17:13</div>
+        </header>
+
+        <div class="large-list">
+          <article class="large-row">
+            <span class="large-line">M41</span>
+            <div>
+              <div class="large-dest">Hauptbahnhof</div>
+              <div class="large-sub">Richtung Westen</div>
+            </div>
+            <span class="large-eta">5<span>Min</span></span>
+          </article>
+          <article class="large-row">
+            <span class="large-line">100</span>
+            <div>
+              <div class="large-dest">Zoologischer Garten</div>
+              <div class="large-sub">über Mitte</div>
+            </div>
+            <span class="large-eta">2<span>Min</span></span>
+          </article>
+        </div>
+
+        <footer class="bar">
+          <button type="button" class="btn btn--wide" data-go="live">Zurück zur Normalansicht</button>
+        </footer>
+      </section>
+
+      <!-- NETZ -->
+      <section class="screen screen--netz" id="screen-netz" data-screen="netz" hidden>
+        <header class="top">
+          <div class="brand">
+            <span class="brand__mark">Netzinfo</span>
+          </div>
+          <div class="clock" id="clock-netz">17:13</div>
+        </header>
+
+        <div class="netz-body">
+          <div class="netz-map">
+            <div class="netz-map__title">Liniennetz (Skizze)</div>
+            <svg viewBox="0 0 320 280" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect width="320" height="280" fill="#f7fafc"/>
+              <path d="M30 200 C80 180, 120 120, 160 100 S240 60, 290 80" fill="none" stroke="#e6b800" stroke-width="6"/>
+              <path d="M40 60 C100 90, 140 160, 180 200 S260 250, 300 220" fill="none" stroke="#e30613" stroke-width="6"/>
+              <path d="M20 140 H300" fill="none" stroke="#2f7de1" stroke-width="5"/>
+              <circle cx="160" cy="140" r="12" fill="#122033"/>
+              <text x="176" y="146" fill="#122033" font-size="13" font-family="IBM Plex Sans, sans-serif">Alex</text>
+            </svg>
+          </div>
+          <ul class="netz-lines">
+            <li><span class="line">100</span> Zoo · Mitte · Prenzlauer Berg</li>
+            <li><span class="line line--metro">M41</span> Hauptbahnhof · Südkreuz</li>
+            <li><span class="line">200</span> Prenzlauer Berg · Michelangelostr.</li>
+            <li><span class="line">N5</span> Nachtlinie Friedrichstraße</li>
+          </ul>
+        </div>
+
+        <footer class="bar">
+          <button type="button" class="btn btn--wide" data-go="live">Zurück zu Live-Abfahrten</button>
+        </footer>
+      </section>
+    </div>
+
+    <div class="toolbar">
+      <button type="button" data-go="live">1 Live</button>
+      <button type="button" data-go="large">2 Großschrift</button>
+      <button type="button" data-go="netz">3 Netzinfo</button>
+      <span class="toolbar__note">Tasten 1 / 2 / 3 · Screenshot für Blender</span>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
