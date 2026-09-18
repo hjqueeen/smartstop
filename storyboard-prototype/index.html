@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SmartStop — Storytelling Prototype</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:wght@500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="storyboard.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Storytelling Prototype · Vision → Werbevideo</p>
+        <h1>SmartStop Berlin</h1>
+      </div>
+      <div class="topbar__meta">
+        <span id="progress">1 / 8</span>
+        <span class="badge">45 Sek. Story</span>
+      </div>
+    </header>
+
+    <main class="stage" id="stage" tabindex="0" aria-live="polite">
+      <!-- cards injected / shown via JS -->
+    </main>
+
+    <nav class="controls">
+      <button type="button" id="prev" class="nav-btn">← Zurück</button>
+      <div class="dots" id="dots" aria-hidden="true"></div>
+      <button type="button" id="next" class="nav-btn nav-btn--primary">Weiter →</button>
+    </nav>
+
+    <p class="hint">Tasten ← → · Leertaste · Klick auf die Karte</p>
+  </div>
+
+  <template id="card-template">
+    <article class="card">
+      <div class="card__visual" data-visual></div>
+      <div class="card__body">
+        <p class="card__time" data-time></p>
+        <p class="card__scene" data-scene></p>
+        <h2 class="card__title" data-title></h2>
+        <p class="card__text" data-text></p>
+        <p class="card__shot" data-shot></p>
+      </div>
+    </article>
+  </template>
+
+  <script src="storyboard.js"></script>
+</body>
+</html>
