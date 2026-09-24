@@ -30,7 +30,7 @@
 ## Preview-Untertitel-Stil (Burn-in)
 - **Schrift:** Helvetica Neue Medium — **gleiche Größe über alle Abschnitte (30pt)**
 - **Stil:** halbtransparente abgerundete Pill + gelber Akzentbalken links (kein Unterstrich / keine Hero-Vergrößerung)
-- **Datei:** `previews/shot01_09_rough.mp4` (ohne: `shot01_09_rough_nosub.mp4`)
+- **Datei:** `../review/videos/shot01_09_rough.mp4` (ohne: `shot01_09_rough_nosub.mp4`)
 
 ## Nächste Schritte
 1. In Premiere/DaVinci Titel-Layer mit obigen TC anlegen  

@@ -5,10 +5,10 @@
 **Stil:** modern, ruhig, verständlich  
 **Dramaturgie:** Problem → Lösung → Funktionen → Nutzen → Marke  
 **Storyboard:** `smartstop_60s_storyboard_sketch.png`  
-**Detail-Storyboard 1–9:** `smartstop_detailed_storyboard_01.png`  
-**Detail-Storyboard 10–18:** `smartstop_detailed_storyboard_02.png`  
+**Detail-Storyboard 1–9:** `../storyboard/smartstop_detailed_storyboard_01.png`  
+**Detail-Storyboard 10–18:** `../storyboard/smartstop_detailed_storyboard_02.png`  
 **Animatic-Shotlist (DE):** `02_SmartStop_Animatic_18_Shots_de.md`  
-**Animatic-Shotlist (KO):** `02_SmartStop_Animatic_18_Shots_ko.md`
+**Animatic-Shotlist (KO):** `02_SmartStop_Animatic_18_Shots_ko.md` (falls vorhanden)
 
 ---
 

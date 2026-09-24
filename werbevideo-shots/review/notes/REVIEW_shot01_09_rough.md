@@ -1,6 +1,6 @@
 # Shot 1–9 Rough-Prüfnotizen
 
-Referenzdatei: `shot01_09_rough.mp4`  
+Referenzdatei: `../videos/shot01_09_rough.mp4`  
 Erstellt: 2026-09-22
 
 ## Was gut funktioniert
@@ -20,5 +20,6 @@ Erstellt: 2026-09-22
 - E14/E15: `CAM_S06` + `CAM_S06b` (Tourist OTS → Netzplan)
 - E16–18: Solar-Tilt / Bus / Hero (bestehend verstärkt)
 - E13/E15/E16 UI·Netzplan·Energie-Linienblöcke verstärkt
-- Untertitel-Burn-in: `shot01_09_rough.mp4` (ohne Untertitel: `shot01_09_rough_nosub.mp4`)
+- Untertitel-Burn-in: `../videos/shot01_09_rough.mp4` (ohne: `../videos/shot01_09_rough_nosub.mp4`)
+- 18-Shot-Rough (+ VO): `../videos/shot01_18_rough_vo.mp4`
 - Noch schwach: Handdruck, echte UI-Texturen, echte Aufnahme

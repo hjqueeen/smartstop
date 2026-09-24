@@ -1,4 +1,5 @@
-/.cursor/
+.cursor/
 *.blend1
-werbevideo-shots/previews/.venv-sub/
 node_modules/
+werbevideo-shots/work/.venv-sub/
+.DS_Store
