@@ -14,6 +14,13 @@
   // Haltestelle Alexanderplatz (approx.)
   const STOP = [52.521918, 13.413215];
 
+  const TILE_URL =
+    "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}";
+  const TILE_OPTS = {
+    maxZoom: 16,
+    attribution: "&copy; Esri &copy; OpenStreetMap",
+  };
+
   /**
    * Street-aligned prototype geometries around Alexanderplatz
    * (simplified real corridors — not official BVG shapes).
@@ -32,7 +39,6 @@
       color: "#e6b800",
       progress: 0.78,
       path: [
-        // Karl-Marx-Allee (east) → Alex → Karl-Liebknecht → Unter den Linden (west)
         [52.52255, 13.43580],
         [52.52248, 13.43120],
         [52.52240, 13.42640],
@@ -47,10 +53,10 @@
         [52.51985, 13.40020],
         [52.51910, 13.39640],
         [52.51840, 13.39260],
-        [52.51770, 13.38890], // Unter den Linden
+        [52.51770, 13.38890],
         [52.51720, 13.38520],
         [52.51675, 13.38140],
-        [52.51640, 13.37790], // near Brandenburger Tor
+        [52.51640, 13.37790],
       ],
     },
     {
@@ -61,7 +67,6 @@
       color: "#e30613",
       progress: 0.52,
       path: [
-        // SE (Jannowitzbrücke / Grunerstr.) → Alex → NW (Invalidenstr. → Hbf)
         [52.51420, 13.42080],
         [52.51510, 13.41940],
         [52.51620, 13.41800],
@@ -79,7 +84,7 @@
         [52.52860, 13.39420],
         [52.52950, 13.38880],
         [52.53020, 13.38340],
-        [52.53080, 13.37820], // Hauptbahnhof area
+        [52.53080, 13.37820],
       ],
     },
     {
@@ -90,7 +95,6 @@
       color: "#2f7de1",
       progress: 0.38,
       path: [
-        // south of Alex → Otto-Braun-Str. → Prenzlauer Allee (north)
         [52.51680, 13.41240],
         [52.51790, 13.41260],
         [52.51910, 13.41285],
@@ -105,7 +109,7 @@
         [52.52980, 13.41750],
         [52.53150, 13.41860],
         [52.53320, 13.41980],
-        [52.53500, 13.42110], // Prenzlauer Berg
+        [52.53500, 13.42110],
       ],
     },
     {
@@ -116,7 +120,6 @@
       color: "#5b6670",
       progress: 0.28,
       path: [
-        // slight NE approach → Alex → west along Stadtbahn / toward Friedrichstraße
         [52.52480, 13.42150],
         [52.52410, 13.41920],
         [52.52340, 13.41700],
@@ -129,12 +132,16 @@
         [52.51890, 13.39860],
         [52.51830, 13.39420],
         [52.51780, 13.39040],
-        [52.51740, 13.38720], // Friedrichstraße
+        [52.51740, 13.38720],
       ],
     },
   ];
 
-  let map = null;
+  // Live framing uses 100 + M41 only, so 200/N5 tails don't zoom the map out
+  const LIVE_FRAME_LINES = new Set(["100", "M41"]);
+
+  let liveMap = null;
+  let netzMap = null;
 
   function busIcon(line, metro) {
     const cls = metro ? "bus-marker bus-marker--metro" : "bus-marker";
@@ -173,57 +180,82 @@
     return path[path.length - 1];
   }
 
-  function drawRoute(route) {
-    // Casing (transit-map look)
-    L.polyline(route.path, {
+  function extendTipBeyondBounds(inner, tip, bounds) {
+    const dLat = tip[0] - inner[0];
+    const dLng = tip[1] - inner[1];
+    const len = Math.hypot(dLat, dLng) || 1e-9;
+    const uLat = dLat / len;
+    const uLng = dLng / len;
+    const step = 0.0012;
+    let lat = tip[0];
+    let lng = tip[1];
+
+    for (let i = 0; i < 160; i += 1) {
+      if (!bounds.contains([lat, lng])) {
+        return [lat + uLat * step * 4, lng + uLng * step * 4];
+      }
+      lat += uLat * step;
+      lng += uLng * step;
+    }
+    return [lat, lng];
+  }
+
+  /** Stretch polyline ends past the current map viewport so lines don't stop mid-frame. */
+  function pathToMapEdges(path, map) {
+    if (path.length < 2) return path;
+    const bounds = map.getBounds();
+    const start = extendTipBeyondBounds(path[1], path[0], bounds);
+    const end = extendTipBeyondBounds(
+      path[path.length - 2],
+      path[path.length - 1],
+      bounds
+    );
+    return [start, ...path, end];
+  }
+
+  function drawRoute(targetMap, route, { showBus = true, extendToEdges = false } = {}) {
+    const path = extendToEdges
+      ? pathToMapEdges(route.path, targetMap)
+      : route.path;
+
+    L.polyline(path, {
       color: "#ffffff",
       weight: 8,
       opacity: 0.95,
       lineJoin: "round",
       lineCap: "round",
       interactive: false,
-    }).addTo(map);
+    }).addTo(targetMap);
 
-    const line = L.polyline(route.path, {
+    const line = L.polyline(path, {
       color: route.color,
       weight: 5,
       opacity: 0.92,
       lineJoin: "round",
       lineCap: "round",
       dashArray: route.line.startsWith("N") ? "8 10" : null,
-    }).addTo(map);
+    }).addTo(targetMap);
 
     line.bindPopup(
       `<strong>Linie ${route.line}</strong><br>Richtung ${route.dest}`
     );
 
-    const busPos = pointOnPath(route.path, route.progress);
-    L.marker(busPos, {
-      icon: busIcon(route.line, route.metro),
-      zIndexOffset: 600,
-    })
-      .addTo(map)
-      .bindPopup(
-        `<strong>Bus ${route.line}</strong><br>${route.dest}<br>in ${route.eta}<br><em>auf der Linie</em>`
-      );
+    if (showBus) {
+      const busPos = pointOnPath(route.path, route.progress);
+      L.marker(busPos, {
+        icon: busIcon(route.line, route.metro),
+        zIndexOffset: 600,
+      })
+        .addTo(targetMap)
+        .bindPopup(
+          `<strong>Bus ${route.line}</strong><br>${route.dest}<br>in ${route.eta}<br><em>auf der Linie</em>`
+        );
+    }
 
     return line;
   }
 
-  function initMap() {
-    if (map || typeof L === "undefined") return;
-
-    map = L.map("live-map", {
-      zoomControl: true,
-      attributionControl: true,
-      scrollWheelZoom: false,
-    }).setView(STOP, 14);
-
-    L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
-      maxZoom: 19,
-      attribution: "&copy; OpenStreetMap &copy; CARTO",
-    }).addTo(map);
-
+  function addStopMarker(targetMap) {
     const stopIcon = L.divIcon({
       className: "",
       html: '<div class="stop-marker"></div>',
@@ -232,7 +264,7 @@
     });
 
     L.marker(STOP, { icon: stopIcon, zIndexOffset: 500 })
-      .addTo(map)
+      .addTo(targetMap)
       .bindPopup("<strong>SmartStop</strong><br>Haltestelle Alexanderplatz");
 
     L.circle(STOP, {
@@ -241,16 +273,60 @@
       weight: 1,
       fillColor: "#e6b800",
       fillOpacity: 0.12,
-    }).addTo(map);
+    }).addTo(targetMap);
+  }
 
+  function frameLiveMap() {
     const bounds = L.latLngBounds([STOP]);
     ROUTES.forEach((route) => {
-      const line = drawRoute(route);
-      bounds.extend(line.getBounds());
+      if (!LIVE_FRAME_LINES.has(route.line)) return;
+      bounds.extend(L.latLngBounds(route.path));
     });
+    liveMap.fitBounds(bounds.pad(0.02));
+    const z = liveMap.getZoom();
+    if (z < 16) liveMap.setZoom(Math.min(16, z + 1));
+  }
 
-    map.fitBounds(bounds.pad(0.08));
-    setTimeout(() => map.invalidateSize(), 50);
+  function initLiveMap() {
+    if (liveMap || typeof L === "undefined") return;
+
+    liveMap = L.map("live-map", {
+      zoomControl: true,
+      attributionControl: true,
+      scrollWheelZoom: false,
+    }).setView(STOP, 14);
+
+    L.tileLayer(TILE_URL, TILE_OPTS).addTo(liveMap);
+    addStopMarker(liveMap);
+
+    liveMap.whenReady(() => {
+      liveMap.invalidateSize();
+      frameLiveMap();
+      ROUTES.forEach((route) => {
+        drawRoute(liveMap, route, { showBus: true, extendToEdges: true });
+      });
+    });
+  }
+
+  function initNetzMap() {
+    if (netzMap || typeof L === "undefined") return;
+
+    netzMap = L.map("netz-map", {
+      zoomControl: true,
+      attributionControl: true,
+      scrollWheelZoom: false,
+    }).setView(STOP, 16);
+
+    L.tileLayer(TILE_URL, TILE_OPTS).addTo(netzMap);
+    addStopMarker(netzMap);
+
+    netzMap.whenReady(() => {
+      netzMap.invalidateSize();
+      netzMap.setView(STOP, 16);
+      ROUTES.forEach((route) => {
+        drawRoute(netzMap, route, { showBus: false, extendToEdges: true });
+      });
+    });
   }
 
   function show(name) {
@@ -260,8 +336,12 @@
       el.hidden = !active;
     });
 
-    if (name === "live" && map) {
-      setTimeout(() => map.invalidateSize(), 80);
+    if (name === "live" && liveMap) {
+      setTimeout(() => liveMap.invalidateSize(), 80);
+    }
+    if (name === "netz") {
+      initNetzMap();
+      if (netzMap) setTimeout(() => netzMap.invalidateSize(), 80);
     }
   }
 
@@ -291,5 +371,5 @@
   tick();
   setInterval(tick, 1000);
   show("live");
-  initMap();
+  initLiveMap();
 })();

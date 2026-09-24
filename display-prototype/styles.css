@@ -1,14 +1,14 @@
 :root {
-  --bg: #f4f7fb;
-  --panel: #ffffff;
-  --panel-2: #eef3f8;
-  --line: #d5dee8;
-  --text: #122033;
-  --muted: #5f7388;
+  --bg: #0e1620;
+  --panel: #182433;
+  --panel-2: #141e2a;
+  --line: #2a3a4d;
+  --text: #e8eef5;
+  --muted: #8fa3b8;
   --yellow: #e6b800;
   --red: #e30613;
-  --ok: #1f9d63;
-  --shadow: 0 24px 60px rgba(18, 32, 51, 0.12);
+  --ok: #3dcf8e;
+  --shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
   --font: "IBM Plex Sans", system-ui, sans-serif;
 }
 
@@ -21,7 +21,7 @@ body {
   margin: 0;
   min-height: 100%;
   background:
-    radial-gradient(ellipse at top, #ffffff 0%, #e8eef5 55%, #d9e2ec 100%);
+    radial-gradient(ellipse at top, #1a2433 0%, #0c1219 55%, #080c11 100%);
   color: var(--text);
   font-family: var(--font);
 }
@@ -54,7 +54,7 @@ body {
   max-height: min(1920px, calc(92vw * 16 / 9), 86vh);
   aspect-ratio: 9 / 16;
   background: var(--bg);
-  border: 1px solid #c8d4e1;
+  border: 1px solid #2a3a4d;
   border-radius: 18px;
   box-shadow: var(--shadow);
   overflow: hidden;
@@ -68,7 +68,8 @@ body {
   grid-template-rows: auto minmax(0, 0.9fr) minmax(285px, 1.1fr) auto;
   padding: 36px 32px 28px;
   gap: 22px;
-  background: linear-gradient(180deg, #ffffff 0%, #f4f7fb 100%);
+  background: linear-gradient(180deg, #162231 0%, #0e1620 100%);
+  color: var(--text);
 }
 
 .screen[hidden],
@@ -188,7 +189,7 @@ body {
   width: 10px;
   height: 22px;
   border-radius: 3px;
-  background: #d7e0ea;
+  background: #2a3a4d;
 }
 
 .load--low i:nth-child(1) { background: var(--ok); }
@@ -208,14 +209,16 @@ body {
   margin-right: 4px;
 }
 
+/* Live map stays light (original) inside dark UI */
 .map-panel {
-  background: var(--panel-2);
-  border: 1px solid var(--line);
+  background: #eef3f8;
+  border: 1px solid #d5dee8;
   border-radius: 16px;
   overflow: hidden;
   display: grid;
   grid-template-rows: auto 1fr auto;
   min-height: 315px;
+  color: #122033;
 }
 
 .map-panel__label {
@@ -224,7 +227,7 @@ body {
   align-items: center;
   gap: 12px;
   padding: 12px 16px 8px;
-  color: var(--muted);
+  color: #5f7388;
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -251,7 +254,7 @@ body {
   background: #f7fafc;
 }
 
-/* Leaflet light kiosk tweaks */
+/* Leaflet light map tweaks */
 .map-canvas .leaflet-control-attribution {
   display: none;
 }
@@ -264,8 +267,8 @@ body {
 
 .map-canvas .leaflet-control-zoom a {
   background: #ffffff !important;
-  color: var(--text) !important;
-  border-bottom-color: var(--line) !important;
+  color: #122033 !important;
+  border-bottom-color: #d5dee8 !important;
   width: 32px !important;
   height: 32px !important;
   line-height: 32px !important;
@@ -321,8 +324,8 @@ body {
 
 .btn {
   appearance: none;
-  border: 1px solid #b8c7d6;
-  background: #ffffff;
+  border: 1px solid #3a4d63;
+  background: #1c2a3a;
   color: var(--text);
   border-radius: 999px;
   padding: 14px 20px;
@@ -357,7 +360,7 @@ body {
   height: 10px;
   border-radius: 50%;
   background: var(--ok);
-  box-shadow: 0 0 0 4px rgba(61, 207, 142, 0.15);
+  box-shadow: 0 0 0 4px rgba(61, 207, 142, 0.2);
 }
 
 /* Großschrift */
@@ -378,9 +381,9 @@ body {
   grid-template-columns: auto 1fr auto;
   gap: 28px;
   align-items: center;
-  background: #fff;
-  color: #111;
-  border: 2px solid #111;
+  background: #1c2a3a;
+  color: var(--text);
+  border: 2px solid #e8eef5;
   border-radius: 20px;
   padding: 36px 32px;
 }
@@ -389,6 +392,7 @@ body {
   min-width: 110px;
   text-align: center;
   background: var(--yellow);
+  color: #111;
   border-radius: 12px;
   font-size: clamp(42px, 5vw, 64px);
   font-weight: 700;
@@ -403,7 +407,7 @@ body {
 
 .large-sub {
   margin-top: 8px;
-  color: #445;
+  color: var(--muted);
   font-size: clamp(18px, 2vw, 24px);
 }
 
@@ -419,10 +423,10 @@ body {
   margin-top: 6px;
   font-size: 0.28em;
   font-weight: 600;
-  color: #445;
+  color: var(--muted);
 }
 
-/* Netz */
+/* Netz — UI dark, map sketch stays light */
 .netz-body {
   display: grid;
   gap: 20px;
@@ -431,24 +435,30 @@ body {
 }
 
 .netz-map {
-  background: var(--panel);
-  border: 1px solid var(--line);
+  background: #ffffff;
+  border: 1px solid #d5dee8;
   border-radius: 16px;
   overflow: hidden;
+  color: #122033;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  /* Keep panel footprint similar to previous SVG sketch */
+  min-height: 420px;
+  height: 420px;
 }
 
 .netz-map__title {
-  padding: 14px 16px 0;
-  color: var(--muted);
+  padding: 14px 16px 8px;
+  color: #5f7388;
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
 
-.netz-map svg {
-  width: 100%;
-  height: auto;
-  display: block;
+.netz-map__canvas {
+  min-height: 0;
+  height: 100%;
+  background: #e8eef4;
 }
 
 .netz-lines {
@@ -480,8 +490,8 @@ body {
 
 .toolbar button {
   appearance: none;
-  border: 1px solid #b8c7d6;
-  background: #ffffff;
+  border: 1px solid #3a4d63;
+  background: #1c2a3a;
   color: var(--text);
   border-radius: 10px;
   padding: 10px 14px;

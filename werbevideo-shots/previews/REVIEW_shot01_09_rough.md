@@ -1,24 +1,24 @@
-# Shot 1–9 러프 검수 메모
+# Shot 1–9 Rough-Prüfnotizen
 
-기준 파일: `shot01_09_rough.mp4`  
-작성: 2026-09-22
+Referenzdatei: `shot01_09_rough.mp4`  
+Erstellt: 2026-09-22
 
-## 잘 되는 점
-- 문제(낡은 정류장) → SmartStop → 기능 → 버스 → 히어로 큰 순서는 읽힘
-- Shot 3 디스플레이 CU는 정보 전달이 됨
-- Shot 8에 노란 차량이 “버스 진입”으로 인식 가능
+## Was gut funktioniert
+- Problem (alte Haltestelle) → SmartStop → Funktion → Bus → großer Hero: die Reihenfolge ist lesbar
+- Shot 3 Display-CU vermittelt die Information
+- In Shot 8 ist das gelbe Fahrzeug als „Bus-Einfahrt“ erkennbar
 
-## 고칠 점 (우선)
-1. **Shot 9 히어로** — 버스 옆면이 화면을 가림. 히어로는 SmartStop 정면만 보여야 함
-2. **Shot 8 버스** — 정차 위치가 애매하고, 지붕 H표지가 버스에 붙어 보임(정류장 마스트와 혼동)
-3. **Shot 1 분위기** — 비/밤/추위가 약함. 문제 장면 대비가 부족
-4. **스타일 단차** — 낡은 정류장(그레이박스) vs SmartStop(디테일) 점프가 큼 (후순위)
+## Zu korrigieren (Priorität)
+1. **Shot 9 Hero** — die Bus-Seitenfläche verdeckt den Bildschirm. Der Hero sollte nur die SmartStop-Front zeigen
+2. **Shot 8 Bus** — Halteposition unklar; das H-Schild auf dem Dach wirkt am Bus befestigt (Verwechslung mit Haltestellenmast)
+3. **Shot 1 Atmosphäre** — Regen/Nacht/Kälte zu schwach. Der Kontrast der Problemszene reicht nicht
+4. **Stilbruch** — alte Haltestelle (Greybox) vs. SmartStop (Detail) springt zu stark (nachrangig)
 
-## Einstellung 10–18 (러프 반영 2026-09-22)
-- E10/E11: `CAM_S04` + `CAM_S04b` (반응 → 폰 수납)
-- E12/E13: `CAM_S05` + `CAM_S05b` (버튼 CU → 큰글씨/오디오 UI)
-- E14/E15: `CAM_S06` + `CAM_S06b` (관광객 OTS → 노선도)
-- E16–18: 솔라 틸트 / 버스 / 히어로 (기존 보강)
-- E13/E15/E16 UI·노선도·에너지 라인 블록 보강
-- 자막 burn-in: `shot01_09_rough.mp4` (자막 없음: `shot01_09_rough_nosub.mp4`)
-- 아직 약함: 손 프레스, 실 UI 텍스처, 실녹음
+## Einstellung 10–18 (Rough umgesetzt 2026-09-22)
+- E10/E11: `CAM_S04` + `CAM_S04b` (Reaktion → Handy verstauen)
+- E12/E13: `CAM_S05` + `CAM_S05b` (Button-CU → Großschrift/Audio-UI)
+- E14/E15: `CAM_S06` + `CAM_S06b` (Tourist OTS → Netzplan)
+- E16–18: Solar-Tilt / Bus / Hero (bestehend verstärkt)
+- E13/E15/E16 UI·Netzplan·Energie-Linienblöcke verstärkt
+- Untertitel-Burn-in: `shot01_09_rough.mp4` (ohne Untertitel: `shot01_09_rough_nosub.mp4`)
+- Noch schwach: Handdruck, echte UI-Texturen, echte Aufnahme
