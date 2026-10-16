@@ -1,0 +1,847 @@
+00:00.359  blend            | Read blend: "/Users/kim/project-hwr/blender-projects/blender/SmartStop_Werbevideo_Shots.blend"
+00:00.427  render           | Rendering animation (frames 1..120)
+00:00.428  render           | Rendering frame 1
+00:00.428  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:00.428  render           | Engine: EEVEE
+00:00.742  render           | Fra: 1 | Rendering 1 / 16 samples
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+00:00.856  render           | Fra: 1 | Rendering 16 / 16 samples
+00:00.922  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0001.png'
+00:00.922  render           | Time: 00:00.49 (Saving: 00:00.05)
+00:00.922  render           | Rendering frame 2
+00:00.922  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:00.922  render           | Engine: EEVEE
+00:00.988  render           | Fra: 2 | Rendering 1 / 16 samples
+00:01.128  render           | Fra: 2 | Rendering 16 / 16 samples
+00:01.168  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0002.png'
+00:01.168  render           | Time: 00:00.24 (Saving: 00:00.03)
+00:01.168  render           | Rendering frame 3
+00:01.168  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:01.168  render           | Engine: EEVEE
+00:01.233  render           | Fra: 3 | Rendering 1 / 16 samples
+00:01.362  render           | Fra: 3 | Rendering 16 / 16 samples
+00:01.401  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0003.png'
+00:01.401  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:01.401  render           | Rendering frame 4
+00:01.402  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:01.402  render           | Engine: EEVEE
+00:01.466  render           | Fra: 4 | Rendering 1 / 16 samples
+00:01.595  render           | Fra: 4 | Rendering 16 / 16 samples
+00:01.634  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0004.png'
+00:01.634  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:01.634  render           | Rendering frame 5
+00:01.634  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:01.634  render           | Engine: EEVEE
+00:01.700  render           | Fra: 5 | Rendering 1 / 16 samples
+00:01.836  render           | Fra: 5 | Rendering 16 / 16 samples
+00:01.875  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0005.png'
+00:01.875  render           | Time: 00:00.24 (Saving: 00:00.03)
+00:01.875  render           | Rendering frame 6
+00:01.876  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:01.876  render           | Engine: EEVEE
+00:01.941  render           | Fra: 6 | Rendering 1 / 16 samples
+00:02.070  render           | Fra: 6 | Rendering 16 / 16 samples
+00:02.110  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0006.png'
+00:02.110  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:02.110  render           | Rendering frame 7
+00:02.110  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:02.110  render           | Engine: EEVEE
+00:02.173  render           | Fra: 7 | Rendering 1 / 16 samples
+00:02.300  render           | Fra: 7 | Rendering 16 / 16 samples
+00:02.341  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0007.png'
+00:02.341  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:02.341  render           | Rendering frame 8
+00:02.341  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:02.341  render           | Engine: EEVEE
+00:02.404  render           | Fra: 8 | Rendering 1 / 16 samples
+00:02.533  render           | Fra: 8 | Rendering 16 / 16 samples
+00:02.573  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0008.png'
+00:02.573  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:02.573  render           | Rendering frame 9
+00:02.573  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:02.573  render           | Engine: EEVEE
+00:02.636  render           | Fra: 9 | Rendering 1 / 16 samples
+00:02.765  render           | Fra: 9 | Rendering 16 / 16 samples
+00:02.804  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0009.png'
+00:02.804  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:02.804  render           | Rendering frame 10
+00:02.805  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:02.805  render           | Engine: EEVEE
+00:02.870  render           | Fra: 10 | Rendering 1 / 16 samples
+00:03.000  render           | Fra: 10 | Rendering 16 / 16 samples
+00:03.040  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0010.png'
+00:03.040  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:03.040  render           | Rendering frame 11
+00:03.041  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:03.041  render           | Engine: EEVEE
+00:03.104  render           | Fra: 11 | Rendering 1 / 16 samples
+00:03.234  render           | Fra: 11 | Rendering 16 / 16 samples
+00:03.274  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0011.png'
+00:03.274  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:03.274  render           | Rendering frame 12
+00:03.274  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:03.274  render           | Engine: EEVEE
+00:03.337  render           | Fra: 12 | Rendering 1 / 16 samples
+00:03.465  render           | Fra: 12 | Rendering 16 / 16 samples
+00:03.506  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0012.png'
+00:03.506  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:03.506  render           | Rendering frame 13
+00:03.506  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:03.506  render           | Engine: EEVEE
+00:03.572  render           | Fra: 13 | Rendering 1 / 16 samples
+00:03.698  render           | Fra: 13 | Rendering 16 / 16 samples
+00:03.745  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0013.png'
+00:03.745  render           | Time: 00:00.23 (Saving: 00:00.04)
+00:03.745  render           | Rendering frame 14
+00:03.745  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:03.745  render           | Engine: EEVEE
+00:03.803  render           | Fra: 14 | Rendering 1 / 16 samples
+00:03.931  render           | Fra: 14 | Rendering 16 / 16 samples
+00:03.975  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0014.png'
+00:03.975  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:03.975  render           | Rendering frame 15
+00:03.975  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:03.975  render           | Engine: EEVEE
+00:04.034  render           | Fra: 15 | Rendering 1 / 16 samples
+00:04.162  render           | Fra: 15 | Rendering 16 / 16 samples
+00:04.207  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0015.png'
+00:04.207  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:04.207  render           | Rendering frame 16
+00:04.207  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:04.207  render           | Engine: EEVEE
+00:04.268  render           | Fra: 16 | Rendering 1 / 16 samples
+00:04.394  render           | Fra: 16 | Rendering 16 / 16 samples
+00:04.438  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0016.png'
+00:04.438  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:04.438  render           | Rendering frame 17
+00:04.438  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:04.438  render           | Engine: EEVEE
+00:04.500  render           | Fra: 17 | Rendering 1 / 16 samples
+00:04.628  render           | Fra: 17 | Rendering 16 / 16 samples
+00:04.674  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0017.png'
+00:04.674  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:04.674  render           | Rendering frame 18
+00:04.674  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:04.674  render           | Engine: EEVEE
+00:04.736  render           | Fra: 18 | Rendering 1 / 16 samples
+00:04.866  render           | Fra: 18 | Rendering 16 / 16 samples
+00:04.907  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0018.png'
+00:04.907  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:04.907  render           | Rendering frame 19
+00:04.907  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:04.907  render           | Engine: EEVEE
+00:04.969  render           | Fra: 19 | Rendering 1 / 16 samples
+00:05.096  render           | Fra: 19 | Rendering 16 / 16 samples
+00:05.137  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0019.png'
+00:05.137  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:05.137  render           | Rendering frame 20
+00:05.138  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:05.138  render           | Engine: EEVEE
+00:05.201  render           | Fra: 20 | Rendering 1 / 16 samples
+00:05.328  render           | Fra: 20 | Rendering 16 / 16 samples
+00:05.370  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0020.png'
+00:05.370  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:05.370  render           | Rendering frame 21
+00:05.370  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:05.370  render           | Engine: EEVEE
+00:05.433  render           | Fra: 21 | Rendering 1 / 16 samples
+00:05.560  render           | Fra: 21 | Rendering 16 / 16 samples
+00:05.604  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0021.png'
+00:05.604  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:05.604  render           | Rendering frame 22
+00:05.605  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:05.605  render           | Engine: EEVEE
+00:05.671  render           | Fra: 22 | Rendering 1 / 16 samples
+00:05.797  render           | Fra: 22 | Rendering 16 / 16 samples
+00:05.839  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0022.png'
+00:05.839  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:05.839  render           | Rendering frame 23
+00:05.839  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:05.839  render           | Engine: EEVEE
+00:05.902  render           | Fra: 23 | Rendering 1 / 16 samples
+00:06.029  render           | Fra: 23 | Rendering 16 / 16 samples
+00:06.073  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0023.png'
+00:06.073  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:06.073  render           | Rendering frame 24
+00:06.073  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:06.073  render           | Engine: EEVEE
+00:06.137  render           | Fra: 24 | Rendering 1 / 16 samples
+00:06.264  render           | Fra: 24 | Rendering 16 / 16 samples
+00:06.309  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0024.png'
+00:06.309  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:06.309  render           | Rendering frame 25
+00:06.309  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:06.309  render           | Engine: EEVEE
+00:06.374  render           | Fra: 25 | Rendering 1 / 16 samples
+00:06.501  render           | Fra: 25 | Rendering 16 / 16 samples
+00:06.545  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0025.png'
+00:06.545  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:06.545  render           | Rendering frame 26
+00:06.545  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:06.545  render           | Engine: EEVEE
+00:06.608  render           | Fra: 26 | Rendering 1 / 16 samples
+00:06.736  render           | Fra: 26 | Rendering 16 / 16 samples
+00:06.778  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0026.png'
+00:06.778  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:06.778  render           | Rendering frame 27
+00:06.778  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:06.778  render           | Engine: EEVEE
+00:06.836  render           | Fra: 27 | Rendering 1 / 16 samples
+00:06.964  render           | Fra: 27 | Rendering 16 / 16 samples
+00:07.007  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0027.png'
+00:07.007  render           | Time: 00:00.22 (Saving: 00:00.03)
+00:07.007  render           | Rendering frame 28
+00:07.008  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:07.008  render           | Engine: EEVEE
+00:07.069  render           | Fra: 28 | Rendering 1 / 16 samples
+00:07.195  render           | Fra: 28 | Rendering 16 / 16 samples
+00:07.237  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0028.png'
+00:07.237  render           | Time: 00:00.22 (Saving: 00:00.03)
+00:07.237  render           | Rendering frame 29
+00:07.237  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:07.237  render           | Engine: EEVEE
+00:07.302  render           | Fra: 29 | Rendering 1 / 16 samples
+00:07.429  render           | Fra: 29 | Rendering 16 / 16 samples
+00:07.469  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0029.png'
+00:07.469  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:07.469  render           | Rendering frame 30
+00:07.469  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:07.469  render           | Engine: EEVEE
+00:07.531  render           | Fra: 30 | Rendering 1 / 16 samples
+00:07.660  render           | Fra: 30 | Rendering 16 / 16 samples
+00:07.701  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0030.png'
+00:07.701  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:07.701  render           | Rendering frame 31
+00:07.701  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:07.701  render           | Engine: EEVEE
+00:07.763  render           | Fra: 31 | Rendering 1 / 16 samples
+00:07.890  render           | Fra: 31 | Rendering 16 / 16 samples
+00:07.932  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0031.png'
+00:07.932  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:07.932  render           | Rendering frame 32
+00:07.932  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:07.932  render           | Engine: EEVEE
+00:07.993  render           | Fra: 32 | Rendering 1 / 16 samples
+00:08.120  render           | Fra: 32 | Rendering 16 / 16 samples
+00:08.163  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0032.png'
+00:08.163  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:08.163  render           | Rendering frame 33
+00:08.163  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:08.163  render           | Engine: EEVEE
+00:08.227  render           | Fra: 33 | Rendering 1 / 16 samples
+00:08.353  render           | Fra: 33 | Rendering 16 / 16 samples
+00:08.393  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0033.png'
+00:08.393  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:08.393  render           | Rendering frame 34
+00:08.393  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:08.393  render           | Engine: EEVEE
+00:08.459  render           | Fra: 34 | Rendering 1 / 16 samples
+00:08.590  render           | Fra: 34 | Rendering 16 / 16 samples
+00:08.631  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0034.png'
+00:08.631  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:08.631  render           | Rendering frame 35
+00:08.631  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:08.631  render           | Engine: EEVEE
+00:08.705  render           | Fra: 35 | Rendering 1 / 16 samples
+00:08.835  render           | Fra: 35 | Rendering 16 / 16 samples
+00:08.878  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0035.png'
+00:08.878  render           | Time: 00:00.24 (Saving: 00:00.03)
+00:08.878  render           | Rendering frame 36
+00:08.879  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:08.879  render           | Engine: EEVEE
+00:08.952  render           | Fra: 36 | Rendering 1 / 16 samples
+00:09.082  render           | Fra: 36 | Rendering 16 / 16 samples
+00:09.122  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0036.png'
+00:09.122  render           | Time: 00:00.24 (Saving: 00:00.03)
+00:09.122  render           | Rendering frame 37
+00:09.122  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:09.122  render           | Engine: EEVEE
+00:09.195  render           | Fra: 37 | Rendering 1 / 16 samples
+00:09.328  render           | Fra: 37 | Rendering 16 / 16 samples
+00:09.367  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0037.png'
+00:09.367  render           | Time: 00:00.24 (Saving: 00:00.03)
+00:09.367  render           | Rendering frame 38
+00:09.367  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:09.367  render           | Engine: EEVEE
+00:09.432  render           | Fra: 38 | Rendering 1 / 16 samples
+00:09.560  render           | Fra: 38 | Rendering 16 / 16 samples
+00:09.600  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0038.png'
+00:09.600  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:09.600  render           | Rendering frame 39
+00:09.600  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:09.600  render           | Engine: EEVEE
+00:09.668  render           | Fra: 39 | Rendering 1 / 16 samples
+00:09.795  render           | Fra: 39 | Rendering 16 / 16 samples
+00:09.835  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0039.png'
+00:09.835  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:09.835  render           | Rendering frame 40
+00:09.835  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:09.835  render           | Engine: EEVEE
+00:09.901  render           | Fra: 40 | Rendering 1 / 16 samples
+00:10.032  render           | Fra: 40 | Rendering 16 / 16 samples
+00:10.075  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0040.png'
+00:10.075  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:10.075  render           | Rendering frame 41
+00:10.075  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:10.075  render           | Engine: EEVEE
+00:10.141  render           | Fra: 41 | Rendering 1 / 16 samples
+00:10.269  render           | Fra: 41 | Rendering 16 / 16 samples
+00:10.309  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0041.png'
+00:10.309  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:10.309  render           | Rendering frame 42
+00:10.310  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:10.310  render           | Engine: EEVEE
+00:10.367  render           | Fra: 42 | Rendering 1 / 16 samples
+00:10.495  render           | Fra: 42 | Rendering 16 / 16 samples
+00:10.541  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0042.png'
+00:10.541  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:10.541  render           | Rendering frame 43
+00:10.541  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:10.541  render           | Engine: EEVEE
+00:10.602  render           | Fra: 43 | Rendering 1 / 16 samples
+00:10.731  render           | Fra: 43 | Rendering 16 / 16 samples
+00:10.772  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0043.png'
+00:10.772  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:10.772  render           | Rendering frame 44
+00:10.772  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:10.772  render           | Engine: EEVEE
+00:10.836  render           | Fra: 44 | Rendering 1 / 16 samples
+00:10.964  render           | Fra: 44 | Rendering 16 / 16 samples
+00:11.004  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0044.png'
+00:11.004  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:11.004  render           | Rendering frame 45
+00:11.004  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:11.004  render           | Engine: EEVEE
+00:11.067  render           | Fra: 45 | Rendering 1 / 16 samples
+00:11.195  render           | Fra: 45 | Rendering 16 / 16 samples
+00:11.235  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0045.png'
+00:11.235  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:11.235  render           | Rendering frame 46
+00:11.235  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:11.235  render           | Engine: EEVEE
+00:11.299  render           | Fra: 46 | Rendering 1 / 16 samples
+00:11.424  render           | Fra: 46 | Rendering 16 / 16 samples
+00:11.465  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0046.png'
+00:11.465  render           | Time: 00:00.22 (Saving: 00:00.03)
+00:11.465  render           | Rendering frame 47
+00:11.465  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:11.465  render           | Engine: EEVEE
+00:11.525  render           | Fra: 47 | Rendering 1 / 16 samples
+00:11.653  render           | Fra: 47 | Rendering 16 / 16 samples
+00:11.695  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0047.png'
+00:11.695  render           | Time: 00:00.22 (Saving: 00:00.03)
+00:11.695  render           | Rendering frame 48
+00:11.695  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:11.695  render           | Engine: EEVEE
+00:11.759  render           | Fra: 48 | Rendering 1 / 16 samples
+00:11.887  render           | Fra: 48 | Rendering 16 / 16 samples
+00:11.929  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0048.png'
+00:11.929  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:11.929  render           | Rendering frame 49
+00:11.929  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:11.929  render           | Engine: EEVEE
+00:11.992  render           | Fra: 49 | Rendering 1 / 16 samples
+00:12.120  render           | Fra: 49 | Rendering 16 / 16 samples
+00:12.163  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0049.png'
+00:12.163  render           | Time: 00:00.23 (Saving: 00:00.03)
+00:12.163  render           | Rendering frame 50
+00:12.163  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:12.163  render           | Engine: EEVEE
+00:12.225  render           | Fra: 50 | Rendering 1 / 16 samples
+00:12.352  render           | Fra: 50 | Rendering 16 / 16 samples
+00:12.393  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0050.png'
+00:12.393  render           | Time: 00:00.22 (Saving: 00:00.03)
+00:12.393  render           | Rendering frame 51
+00:12.393  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:12.393  render           | Engine: EEVEE
+00:12.435  render           | Fra: 51 | Rendering 1 / 16 samples
+00:12.525  render           | Fra: 51 | Rendering 16 / 16 samples
+00:12.563  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0051.png'
+00:12.563  render           | Time: 00:00.17 (Saving: 00:00.03)
+00:12.563  render           | Rendering frame 52
+00:12.563  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:12.563  render           | Engine: EEVEE
+00:12.603  render           | Fra: 52 | Rendering 1 / 16 samples
+00:12.696  render           | Fra: 52 | Rendering 16 / 16 samples
+00:12.734  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0052.png'
+00:12.734  render           | Time: 00:00.17 (Saving: 00:00.03)
+00:12.734  render           | Rendering frame 53
+00:12.735  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:12.735  render           | Engine: EEVEE
+00:12.778  render           | Fra: 53 | Rendering 1 / 16 samples
+00:12.872  render           | Fra: 53 | Rendering 16 / 16 samples
+00:12.947  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0053.png'
+00:12.947  render           | Time: 00:00.21 (Saving: 00:00.06)
+00:12.947  render           | Rendering frame 54
+00:12.947  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:12.947  render           | Engine: EEVEE
+00:13.045  render           | Fra: 54 | Rendering 1 / 16 samples
+00:13.155  render           | Fra: 54 | Rendering 16 / 16 samples
+00:13.196  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0054.png'
+00:13.196  render           | Time: 00:00.24 (Saving: 00:00.03)
+00:13.196  render           | Rendering frame 55
+00:13.196  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:13.196  render           | Engine: EEVEE
+00:13.244  render           | Fra: 55 | Rendering 1 / 16 samples
+00:13.336  render           | Fra: 55 | Rendering 16 / 16 samples
+00:13.377  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0055.png'
+00:13.377  render           | Time: 00:00.18 (Saving: 00:00.03)
+00:13.377  render           | Rendering frame 56
+00:13.377  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:13.377  render           | Engine: EEVEE
+00:13.427  render           | Fra: 56 | Rendering 1 / 16 samples
+00:13.519  render           | Fra: 56 | Rendering 16 / 16 samples
+00:13.558  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0056.png'
+00:13.558  render           | Time: 00:00.18 (Saving: 00:00.03)
+00:13.558  render           | Rendering frame 57
+00:13.558  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:13.558  render           | Engine: EEVEE
+00:13.602  render           | Fra: 57 | Rendering 1 / 16 samples
+00:13.691  render           | Fra: 57 | Rendering 16 / 16 samples
+00:13.732  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0057.png'
+00:13.732  render           | Time: 00:00.17 (Saving: 00:00.03)
+00:13.732  render           | Rendering frame 58
+00:13.732  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:13.732  render           | Engine: EEVEE
+00:13.773  render           | Fra: 58 | Rendering 1 / 16 samples
+00:13.863  render           | Fra: 58 | Rendering 16 / 16 samples
+00:13.904  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0058.png'
+00:13.904  render           | Time: 00:00.17 (Saving: 00:00.03)
+00:13.904  render           | Rendering frame 59
+00:13.904  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:13.904  render           | Engine: EEVEE
+00:13.945  render           | Fra: 59 | Rendering 1 / 16 samples
+00:14.038  render           | Fra: 59 | Rendering 16 / 16 samples
+00:14.079  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0059.png'
+00:14.079  render           | Time: 00:00.17 (Saving: 00:00.03)
+00:14.079  render           | Rendering frame 60
+00:14.079  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:14.079  render           | Engine: EEVEE
+00:14.119  render           | Fra: 60 | Rendering 1 / 16 samples
+00:14.207  render           | Fra: 60 | Rendering 16 / 16 samples
+00:14.245  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0060.png'
+00:14.245  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:14.245  render           | Rendering frame 61
+00:14.245  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:14.245  render           | Engine: EEVEE
+00:14.293  render           | Fra: 61 | Rendering 1 / 16 samples
+00:14.385  render           | Fra: 61 | Rendering 16 / 16 samples
+00:14.428  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0061.png'
+00:14.428  render           | Time: 00:00.18 (Saving: 00:00.03)
+00:14.428  render           | Rendering frame 62
+00:14.429  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:14.429  render           | Engine: EEVEE
+00:14.469  render           | Fra: 62 | Rendering 1 / 16 samples
+00:14.558  render           | Fra: 62 | Rendering 16 / 16 samples
+00:14.596  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0062.png'
+00:14.596  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:14.596  render           | Rendering frame 63
+00:14.596  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:14.596  render           | Engine: EEVEE
+00:14.636  render           | Fra: 63 | Rendering 1 / 16 samples
+00:14.727  render           | Fra: 63 | Rendering 16 / 16 samples
+00:14.763  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0063.png'
+00:14.763  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:14.763  render           | Rendering frame 64
+00:14.764  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:14.764  render           | Engine: EEVEE
+00:14.807  render           | Fra: 64 | Rendering 1 / 16 samples
+00:14.896  render           | Fra: 64 | Rendering 16 / 16 samples
+00:14.934  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0064.png'
+00:14.934  render           | Time: 00:00.17 (Saving: 00:00.03)
+00:14.934  render           | Rendering frame 65
+00:14.934  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:14.934  render           | Engine: EEVEE
+00:14.977  render           | Fra: 65 | Rendering 1 / 16 samples
+00:15.067  render           | Fra: 65 | Rendering 16 / 16 samples
+00:15.107  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0065.png'
+00:15.107  render           | Time: 00:00.17 (Saving: 00:00.03)
+00:15.107  render           | Rendering frame 66
+00:15.107  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:15.107  render           | Engine: EEVEE
+00:15.150  render           | Fra: 66 | Rendering 1 / 16 samples
+00:15.238  render           | Fra: 66 | Rendering 16 / 16 samples
+00:15.275  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0066.png'
+00:15.275  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:15.275  render           | Rendering frame 67
+00:15.276  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:15.276  render           | Engine: EEVEE
+00:15.316  render           | Fra: 67 | Rendering 1 / 16 samples
+00:15.402  render           | Fra: 67 | Rendering 16 / 16 samples
+00:15.439  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0067.png'
+00:15.439  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:15.439  render           | Rendering frame 68
+00:15.439  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:15.439  render           | Engine: EEVEE
+00:15.480  render           | Fra: 68 | Rendering 1 / 16 samples
+00:15.566  render           | Fra: 68 | Rendering 16 / 16 samples
+00:15.607  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0068.png'
+00:15.607  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:15.607  render           | Rendering frame 69
+00:15.607  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:15.607  render           | Engine: EEVEE
+00:15.649  render           | Fra: 69 | Rendering 1 / 16 samples
+00:15.735  render           | Fra: 69 | Rendering 16 / 16 samples
+00:15.775  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0069.png'
+00:15.775  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:15.775  render           | Rendering frame 70
+00:15.775  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:15.775  render           | Engine: EEVEE
+00:15.816  render           | Fra: 70 | Rendering 1 / 16 samples
+00:15.905  render           | Fra: 70 | Rendering 16 / 16 samples
+00:15.942  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0070.png'
+00:15.942  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:15.942  render           | Rendering frame 71
+00:15.942  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:15.942  render           | Engine: EEVEE
+00:15.984  render           | Fra: 71 | Rendering 1 / 16 samples
+00:16.069  render           | Fra: 71 | Rendering 16 / 16 samples
+00:16.109  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0071.png'
+00:16.109  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:16.109  render           | Rendering frame 72
+00:16.109  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:16.109  render           | Engine: EEVEE
+00:16.149  render           | Fra: 72 | Rendering 1 / 16 samples
+00:16.236  render           | Fra: 72 | Rendering 16 / 16 samples
+00:16.275  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0072.png'
+00:16.275  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:16.275  render           | Rendering frame 73
+00:16.276  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:16.276  render           | Engine: EEVEE
+00:16.315  render           | Fra: 73 | Rendering 1 / 16 samples
+00:16.404  render           | Fra: 73 | Rendering 16 / 16 samples
+00:16.441  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0073.png'
+00:16.441  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:16.441  render           | Rendering frame 74
+00:16.441  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:16.441  render           | Engine: EEVEE
+00:16.480  render           | Fra: 74 | Rendering 1 / 16 samples
+00:16.564  render           | Fra: 74 | Rendering 16 / 16 samples
+00:16.602  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0074.png'
+00:16.602  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:16.602  render           | Rendering frame 75
+00:16.602  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:16.602  render           | Engine: EEVEE
+00:16.642  render           | Fra: 75 | Rendering 1 / 16 samples
+00:16.727  render           | Fra: 75 | Rendering 16 / 16 samples
+00:16.765  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0075.png'
+00:16.765  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:16.765  render           | Rendering frame 76
+00:16.765  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:16.765  render           | Engine: EEVEE
+00:16.806  render           | Fra: 76 | Rendering 1 / 16 samples
+00:16.891  render           | Fra: 76 | Rendering 16 / 16 samples
+00:16.931  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0076.png'
+00:16.931  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:16.931  render           | Rendering frame 77
+00:16.931  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:16.931  render           | Engine: EEVEE
+00:16.971  render           | Fra: 77 | Rendering 1 / 16 samples
+00:17.055  render           | Fra: 77 | Rendering 16 / 16 samples
+00:17.092  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0077.png'
+00:17.092  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:17.092  render           | Rendering frame 78
+00:17.092  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:17.092  render           | Engine: EEVEE
+00:17.129  render           | Fra: 78 | Rendering 1 / 16 samples
+00:17.214  render           | Fra: 78 | Rendering 16 / 16 samples
+00:17.251  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0078.png'
+00:17.251  render           | Time: 00:00.15 (Saving: 00:00.03)
+00:17.251  render           | Rendering frame 79
+00:17.252  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:17.252  render           | Engine: EEVEE
+00:17.289  render           | Fra: 79 | Rendering 1 / 16 samples
+00:17.374  render           | Fra: 79 | Rendering 16 / 16 samples
+00:17.411  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0079.png'
+00:17.411  render           | Time: 00:00.15 (Saving: 00:00.03)
+00:17.411  render           | Rendering frame 80
+00:17.411  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:17.411  render           | Engine: EEVEE
+00:17.450  render           | Fra: 80 | Rendering 1 / 16 samples
+00:17.536  render           | Fra: 80 | Rendering 16 / 16 samples
+00:17.576  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0080.png'
+00:17.576  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:17.576  render           | Rendering frame 81
+00:17.576  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:17.576  render           | Engine: EEVEE
+00:17.615  render           | Fra: 81 | Rendering 1 / 16 samples
+00:17.699  render           | Fra: 81 | Rendering 16 / 16 samples
+00:17.736  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0081.png'
+00:17.736  render           | Time: 00:00.15 (Saving: 00:00.03)
+00:17.736  render           | Rendering frame 82
+00:17.736  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:17.736  render           | Engine: EEVEE
+00:17.776  render           | Fra: 82 | Rendering 1 / 16 samples
+00:17.864  render           | Fra: 82 | Rendering 16 / 16 samples
+00:17.908  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0082.png'
+00:17.908  render           | Time: 00:00.17 (Saving: 00:00.03)
+00:17.908  render           | Rendering frame 83
+00:17.908  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:17.908  render           | Engine: EEVEE
+00:17.948  render           | Fra: 83 | Rendering 1 / 16 samples
+00:18.035  render           | Fra: 83 | Rendering 16 / 16 samples
+00:18.071  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0083.png'
+00:18.071  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:18.071  render           | Rendering frame 84
+00:18.071  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:18.071  render           | Engine: EEVEE
+00:18.112  render           | Fra: 84 | Rendering 1 / 16 samples
+00:18.199  render           | Fra: 84 | Rendering 16 / 16 samples
+00:18.236  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0084.png'
+00:18.236  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:18.236  render           | Rendering frame 85
+00:18.236  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:18.236  render           | Engine: EEVEE
+00:18.275  render           | Fra: 85 | Rendering 1 / 16 samples
+00:18.360  render           | Fra: 85 | Rendering 16 / 16 samples
+00:18.399  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0085.png'
+00:18.399  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:18.399  render           | Rendering frame 86
+00:18.400  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:18.400  render           | Engine: EEVEE
+00:18.438  render           | Fra: 86 | Rendering 1 / 16 samples
+00:18.523  render           | Fra: 86 | Rendering 16 / 16 samples
+00:18.560  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0086.png'
+00:18.560  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:18.560  render           | Rendering frame 87
+00:18.561  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:18.561  render           | Engine: EEVEE
+00:18.599  render           | Fra: 87 | Rendering 1 / 16 samples
+00:18.687  render           | Fra: 87 | Rendering 16 / 16 samples
+00:18.724  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0087.png'
+00:18.724  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:18.724  render           | Rendering frame 88
+00:18.724  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:18.724  render           | Engine: EEVEE
+00:18.765  render           | Fra: 88 | Rendering 1 / 16 samples
+00:18.853  render           | Fra: 88 | Rendering 16 / 16 samples
+00:18.889  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0088.png'
+00:18.889  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:18.889  render           | Rendering frame 89
+00:18.889  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:18.889  render           | Engine: EEVEE
+00:18.929  render           | Fra: 89 | Rendering 1 / 16 samples
+00:19.013  render           | Fra: 89 | Rendering 16 / 16 samples
+00:19.055  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0089.png'
+00:19.055  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:19.055  render           | Rendering frame 90
+00:19.055  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:19.055  render           | Engine: EEVEE
+00:19.095  render           | Fra: 90 | Rendering 1 / 16 samples
+00:19.180  render           | Fra: 90 | Rendering 16 / 16 samples
+00:19.217  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0090.png'
+00:19.217  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:19.217  render           | Rendering frame 91
+00:19.217  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:19.217  render           | Engine: EEVEE
+00:19.257  render           | Fra: 91 | Rendering 1 / 16 samples
+00:19.344  render           | Fra: 91 | Rendering 16 / 16 samples
+00:19.385  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0091.png'
+00:19.385  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:19.385  render           | Rendering frame 92
+00:19.386  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:19.386  render           | Engine: EEVEE
+00:19.425  render           | Fra: 92 | Rendering 1 / 16 samples
+00:19.510  render           | Fra: 92 | Rendering 16 / 16 samples
+00:19.547  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0092.png'
+00:19.547  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:19.547  render           | Rendering frame 93
+00:19.547  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:19.547  render           | Engine: EEVEE
+00:19.589  render           | Fra: 93 | Rendering 1 / 16 samples
+00:19.676  render           | Fra: 93 | Rendering 16 / 16 samples
+00:19.713  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0093.png'
+00:19.713  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:19.713  render           | Rendering frame 94
+00:19.713  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:19.713  render           | Engine: EEVEE
+00:19.752  render           | Fra: 94 | Rendering 1 / 16 samples
+00:19.838  render           | Fra: 94 | Rendering 16 / 16 samples
+00:19.877  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0094.png'
+00:19.877  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:19.877  render           | Rendering frame 95
+00:19.877  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:19.877  render           | Engine: EEVEE
+00:19.914  render           | Fra: 95 | Rendering 1 / 16 samples
+00:20.001  render           | Fra: 95 | Rendering 16 / 16 samples
+00:20.041  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0095.png'
+00:20.041  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:20.041  render           | Rendering frame 96
+00:20.041  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:20.041  render           | Engine: EEVEE
+00:20.081  render           | Fra: 96 | Rendering 1 / 16 samples
+00:20.165  render           | Fra: 96 | Rendering 16 / 16 samples
+00:20.203  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0096.png'
+00:20.203  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:20.203  render           | Rendering frame 97
+00:20.203  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:20.203  render           | Engine: EEVEE
+00:20.239  render           | Fra: 97 | Rendering 1 / 16 samples
+00:20.327  render           | Fra: 97 | Rendering 16 / 16 samples
+00:20.364  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0097.png'
+00:20.364  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:20.364  render           | Rendering frame 98
+00:20.364  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:20.364  render           | Engine: EEVEE
+00:20.401  render           | Fra: 98 | Rendering 1 / 16 samples
+00:20.486  render           | Fra: 98 | Rendering 16 / 16 samples
+00:20.522  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0098.png'
+00:20.522  render           | Time: 00:00.15 (Saving: 00:00.03)
+00:20.522  render           | Rendering frame 99
+00:20.522  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:20.522  render           | Engine: EEVEE
+00:20.562  render           | Fra: 99 | Rendering 1 / 16 samples
+00:20.651  render           | Fra: 99 | Rendering 16 / 16 samples
+00:20.688  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0099.png'
+00:20.688  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:20.688  render           | Rendering frame 100
+00:20.688  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:20.688  render           | Engine: EEVEE
+00:20.728  render           | Fra: 100 | Rendering 1 / 16 samples
+00:20.814  render           | Fra: 100 | Rendering 16 / 16 samples
+00:20.852  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0100.png'
+00:20.852  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:20.852  render           | Rendering frame 101
+00:20.852  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:20.852  render           | Engine: EEVEE
+00:20.893  render           | Fra: 101 | Rendering 1 / 16 samples
+00:20.984  render           | Fra: 101 | Rendering 16 / 16 samples
+00:21.022  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0101.png'
+00:21.022  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:21.022  render           | Rendering frame 102
+00:21.022  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:21.022  render           | Engine: EEVEE
+00:21.061  render           | Fra: 102 | Rendering 1 / 16 samples
+00:21.151  render           | Fra: 102 | Rendering 16 / 16 samples
+00:21.188  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0102.png'
+00:21.188  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:21.188  render           | Rendering frame 103
+00:21.189  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:21.189  render           | Engine: EEVEE
+00:21.226  render           | Fra: 103 | Rendering 1 / 16 samples
+00:21.316  render           | Fra: 103 | Rendering 16 / 16 samples
+00:21.367  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0103.png'
+00:21.367  render           | Time: 00:00.17 (Saving: 00:00.04)
+00:21.367  render           | Rendering frame 104
+00:21.367  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:21.367  render           | Engine: EEVEE
+00:21.407  render           | Fra: 104 | Rendering 1 / 16 samples
+00:21.498  render           | Fra: 104 | Rendering 16 / 16 samples
+00:21.536  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0104.png'
+00:21.536  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:21.536  render           | Rendering frame 105
+00:21.536  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:21.536  render           | Engine: EEVEE
+00:21.574  render           | Fra: 105 | Rendering 1 / 16 samples
+00:21.665  render           | Fra: 105 | Rendering 16 / 16 samples
+00:21.702  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0105.png'
+00:21.702  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:21.702  render           | Rendering frame 106
+00:21.702  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:21.702  render           | Engine: EEVEE
+00:21.742  render           | Fra: 106 | Rendering 1 / 16 samples
+00:21.834  render           | Fra: 106 | Rendering 16 / 16 samples
+00:21.872  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0106.png'
+00:21.872  render           | Time: 00:00.17 (Saving: 00:00.03)
+00:21.872  render           | Rendering frame 107
+00:21.872  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:21.872  render           | Engine: EEVEE
+00:21.908  render           | Fra: 107 | Rendering 1 / 16 samples
+00:21.999  render           | Fra: 107 | Rendering 16 / 16 samples
+00:22.036  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0107.png'
+00:22.036  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:22.036  render           | Rendering frame 108
+00:22.036  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:22.036  render           | Engine: EEVEE
+00:22.076  render           | Fra: 108 | Rendering 1 / 16 samples
+00:22.166  render           | Fra: 108 | Rendering 16 / 16 samples
+00:22.202  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0108.png'
+00:22.202  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:22.202  render           | Rendering frame 109
+00:22.202  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:22.202  render           | Engine: EEVEE
+00:22.240  render           | Fra: 109 | Rendering 1 / 16 samples
+00:22.329  render           | Fra: 109 | Rendering 16 / 16 samples
+00:22.367  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0109.png'
+00:22.367  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:22.367  render           | Rendering frame 110
+00:22.368  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:22.368  render           | Engine: EEVEE
+00:22.402  render           | Fra: 110 | Rendering 1 / 16 samples
+00:22.545  render           | Fra: 110 | Rendering 16 / 16 samples
+00:22.593  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0110.png'
+00:22.593  render           | Time: 00:00.22 (Saving: 00:00.03)
+00:22.593  render           | Rendering frame 111
+00:22.593  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:22.593  render           | Engine: EEVEE
+00:22.672  render           | Fra: 111 | Rendering 1 / 16 samples
+00:22.768  render           | Fra: 111 | Rendering 16 / 16 samples
+00:22.807  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0111.png'
+00:22.807  render           | Time: 00:00.21 (Saving: 00:00.03)
+00:22.807  render           | Rendering frame 112
+00:22.807  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:22.807  render           | Engine: EEVEE
+00:22.849  render           | Fra: 112 | Rendering 1 / 16 samples
+00:22.942  render           | Fra: 112 | Rendering 16 / 16 samples
+00:22.980  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0112.png'
+00:22.980  render           | Time: 00:00.17 (Saving: 00:00.03)
+00:22.980  render           | Rendering frame 113
+00:22.980  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:22.980  render           | Engine: EEVEE
+00:23.021  render           | Fra: 113 | Rendering 1 / 16 samples
+00:23.113  render           | Fra: 113 | Rendering 16 / 16 samples
+00:23.152  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0113.png'
+00:23.152  render           | Time: 00:00.17 (Saving: 00:00.03)
+00:23.152  render           | Rendering frame 114
+00:23.153  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:23.153  render           | Engine: EEVEE
+00:23.196  render           | Fra: 114 | Rendering 1 / 16 samples
+00:23.287  render           | Fra: 114 | Rendering 16 / 16 samples
+00:23.324  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0114.png'
+00:23.324  render           | Time: 00:00.17 (Saving: 00:00.03)
+00:23.324  render           | Rendering frame 115
+00:23.324  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:23.324  render           | Engine: EEVEE
+00:23.367  render           | Fra: 115 | Rendering 1 / 16 samples
+00:23.459  render           | Fra: 115 | Rendering 16 / 16 samples
+00:23.497  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0115.png'
+00:23.497  render           | Time: 00:00.17 (Saving: 00:00.03)
+00:23.497  render           | Rendering frame 116
+00:23.498  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:23.498  render           | Engine: EEVEE
+00:23.540  render           | Fra: 116 | Rendering 1 / 16 samples
+00:23.633  render           | Fra: 116 | Rendering 16 / 16 samples
+00:23.675  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0116.png'
+00:23.675  render           | Time: 00:00.17 (Saving: 00:00.03)
+00:23.675  render           | Rendering frame 117
+00:23.675  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:23.675  render           | Engine: EEVEE
+00:23.724  render           | Fra: 117 | Rendering 1 / 16 samples
+00:23.815  render           | Fra: 117 | Rendering 16 / 16 samples
+00:23.853  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0117.png'
+00:23.853  render           | Time: 00:00.17 (Saving: 00:00.03)
+00:23.853  render           | Rendering frame 118
+00:23.853  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:23.853  render           | Engine: EEVEE
+00:23.895  render           | Fra: 118 | Rendering 1 / 16 samples
+00:23.986  render           | Fra: 118 | Rendering 16 / 16 samples
+00:24.023  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0118.png'
+00:24.023  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:24.023  render           | Rendering frame 119
+00:24.023  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:24.023  render           | Engine: EEVEE
+00:24.062  render           | Fra: 119 | Rendering 1 / 16 samples
+00:24.153  render           | Fra: 119 | Rendering 16 / 16 samples
+00:24.192  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0119.png'
+00:24.192  render           | Time: 00:00.16 (Saving: 00:00.03)
+00:24.192  render           | Rendering frame 120
+00:24.192  render           | Start rendering: SmartStop Berlin | Produktstudio, ViewLayer
+00:24.192  render           | Engine: EEVEE
+00:24.232  render           | Fra: 120 | Rendering 1 / 16 samples
+00:24.323  render           | Fra: 120 | Rendering 16 / 16 samples
+00:24.361  render           | Saved: '/Users/kim/project-hwr/blender-projects/werbevideo-shots/work/frames/smartstop_zoom_in_display/frame_0120.png'
+00:24.361  render           | Time: 00:00.16 (Saving: 00:00.03)
+BlenderMCP addon registered
+BlenderMCP addon unregistered
+
+Blender quit
